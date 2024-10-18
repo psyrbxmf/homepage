@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    padding: 0 1rem;
+}
+
+p {
+    color: #fff;
+    text-align: left;
+}
+
+body {
+    display: block;
+    
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #01011b;
+    font-family: Arial, sans-serif;
+    max-height: 100vh;
+}
+
+.TitleOfPlatform,
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    height: 25px;
+    width: 50px;
+}
+
+.logoo {
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 5px;
+    justify-content: center;
+}
+
+.logoo img {
+    height: 60px;
+    padding: 5px;
+    width: 60px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.Navigation {
+    display: block;
+    margin-left: auto;
+    min-width: 26vw;
+}
+
+.NavigatingOptions {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.MainPartNavBar {
+    display: flex;
+    margin-right: -20px;
+}
+
+.link-tag,
+.link-tag1,
+.link-tag2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.NavigatingOptions li a {
+    font-size: 1.2rem;
+    font-weight: 1;
+    padding: 0 1.5rem;
+    text-decoration: none;
+}
+
+.link {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: .5px;
+    padding: 20px 25px 25px;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+
+.logoo h4 {
+    color: #fff;
+}
+
+#footer {
+    align-items: center;
+    background-color: initial;
+    border: 1px solid #01011b;
+    border-top-color: #3f3e45;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-top: 2rem;
+    text-align: left !important;
+    padding: 20px;
+}
+
+.KiKDescription {
+    margin-top: 1rem;
+}
+
+.iconsContainer {
+    margin: 2rem 0;
+}
+
+#KiKLogo {
+    width: 50px;
+}
+
+.KiKName {
+    margin-top: .5rem;
+    margin: 0;
+}
+
+.KiKDescription {
+    margin-top: 1rem;
+}
+
+#footerItemElement1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.footerItemElement {
+    margin: .6rem 0;
+}
+.font-awesome i{
+    padding: 8px;
+    font-size: 30px;
+
+}
+.font-awesome{
+    padding: 4px;
+}
+.font-awesome a{
+    text-decoration: none;
+    color: inherit;
+}
